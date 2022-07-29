@@ -5,7 +5,7 @@
 "list_sale" => "Lista de ventas",
 "add_sale" => "Agregar venta",
 "pos_sale" => "POS",
-"draft_added" => "Borrador añadido con éxito", /* modified */
+"draft_added" => "Nota de Venta añadido con éxito", /* modified */
 "invoice_added" => "Factura añadida con éxito",
 "item" => "Artículos",
 "total" => "Total",
@@ -13,7 +13,7 @@
 "discount" => "Descuento",
 "total_payable" => "Total a pagar",
 "cancel" => "Cancelar",
-"draft" => "Borrador",
+"draft" => "Nota de Venta",
 "finalize" => "Finalizar compra", /* modified */
 "express_finalize" => "Pago <br/> Rápido",
 "product" => "Producto",
@@ -39,8 +39,8 @@
 "total_paid" => "Total pagado",
 "total_remaining" => "Total restante",
 "payment_info" => "Información de pago",
-"drafts" => "Borradores",
-"all_drafts" => "Todos los borradores",
+"drafts" => "Notas de Ventas",
+"all_drafts" => "Todas Notas de Ventas",
 "sell_details" => "Detalles de venta", /* modified */
 "payments" => "Pagos",
 "amount" => "Cantidad",
@@ -48,7 +48,7 @@
 "payment_note" => "Nota de pago",
 "sell_note" => "Nota de venta", /* modified */
 "staff_note" => "Nota del personal",
-"draft_updated" => "Borrador actualizado con éxito",
+"draft_updated" => "Nota de Venta actualizada con éxito",
 "pos_sale_updated" => "Venta actualizada con éxito",
 "location" => "Ubicación",
 "add_payment_row" => "Agregar fila de pago",

@@ -71,7 +71,7 @@ return [
 "item_out_of_stock" => "Producto sin stock",
 "go_back" => "Volver",  /* modified */
 "disable_pay_checkout" => "Desactivar Finalizar compra", /* modified */
-"disable_draft" => "Desactivar Borrador", /* modified */
+"disable_draft" => "Desactivar Nota de Venta", /* modified */
 "disable_express_checkout" => "Desactivar Pago Rápido", /* modified */
 "hide_product_suggestion" => "No mostrar sugerencia del producto",
 "hide_recent_trans" => "No mostrar transacciones recientes",
@@ -275,7 +275,7 @@ return [
    '12_hour' => '12 horas',
    '24_hour' => '24 horas',
    "list_quotations" => "Lista de citas",
-    "list_drafts" => "List Drafts",
+    "list_drafts" => "Listar Notas de Ventas",
     "you_cannot_delete_this_contact" => "No se puede eliminar el contacto: las transacciones ya existen para el contacto",
     "enable_row" => "Habilitar fila",
     "enable_position" => "Activar posición",
@@ -1122,7 +1122,7 @@ return [
 "quantity_change"=>"Cambio de cantidad",
 "new_quantity"=>"Nueva cantidad",
 "no_stock_history_found"=>"No se ha encontrado historial de stock",
-"add_draft"=>"Agregar borrador",
+"add_draft"=>"Agregar Nota de Venta",
 "labels_for_sale_shipping_custom_fields"=>"Etiquetas para la venta que envían campos personalizados",
 "is_required"=>"Es requerido",
 "convert_to_invoice"=>"Convertir en factura",
@@ -1257,10 +1257,10 @@ return [
 "invoice_value"=>"Valor de la factura",
 "total_payment_with_commsn"=>"Pago total con comisión",
 "payments_with_cmmsn"=>"Pagos con comisión",
-"view_all_drafts"=>"Ver todos los borradores",
-"view_own_drafts"=>"Ver borradores propios",
-"edit_draft"=>"Editar borrador",
-"delete_draft"=>"Eliminar borrador",
+"view_all_drafts"=>"Ver todas los Notas de Ventas",
+"view_own_drafts"=>"Ver Notas de Ventas propias",
+"edit_draft"=>"Editar Nota de Venta",
+"delete_draft"=>"Eliminar Nota de Venta",
 "view_all_quotations"=>"Ver todas las cotizaciones",
 "view_own_quotations"=>"Ver presupuestos propios",
 "edit_quotation"=>"Editar cotización",

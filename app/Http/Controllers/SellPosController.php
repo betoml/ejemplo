@@ -137,6 +137,9 @@ class SellPosController extends Controller
             $service_staffs = $this->productUtil->serviceStaffDropdown($business_id);
         }
 
+
+        
+
         $is_types_service_enabled = $this->moduleUtil->isModuleEnabled('types_of_service');
 
         $shipping_statuses = $this->transactionUtil->shipping_statuses();
@@ -255,12 +258,17 @@ class SellPosController extends Controller
         //Added check because $users is of no use if enable_contact_assign if false
         $users = config('constants.enable_contact_assign') ? User::forDropdown($business_id, false, false, false, true) : [];
 
+
+
+
+
+
         return view('sale_pos.create')
             ->with(compact(
+                
                 'edit_discount',
                 'edit_price',
                 'business_locations',
-                'bl_attributes',
                 'business_details',
                 'taxes',
                 'payment_types',

@@ -1,0 +1,35 @@
+warning: LF will be replaced by CRLF in app/Http/Controllers/SellPosController.php.
+The file will have its original line endings in your working directory
+[1mdiff --git a/app/Http/Controllers/SellPosController.php b/app/Http/Controllers/SellPosController.php[m
+[1mindex 45214a7..23c86ae 100644[m
+[1m--- a/app/Http/Controllers/SellPosController.php[m
+[1m+++ b/app/Http/Controllers/SellPosController.php[m
+[36m@@ -137,6 +137,9 @@[m [mclass SellPosController extends Controller[m
+             $service_staffs = $this->productUtil->serviceStaffDropdown($business_id);[m
+         }[m
+ [m
+[32m+[m
+[32m+[m[41m        [m
+[32m+[m
+         $is_types_service_enabled = $this->moduleUtil->isModuleEnabled('types_of_service');[m
+ [m
+         $shipping_statuses = $this->transactionUtil->shipping_statuses();[m
+[36m@@ -255,12 +258,17 @@[m [mclass SellPosController extends Controller[m
+         //Added check because $users is of no use if enable_contact_assign if false[m
+         $users = config('constants.enable_contact_assign') ? User::forDropdown($business_id, false, false, false, true) : [];[m
+ [m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+         return view('sale_pos.create')[m
+             ->with(compact([m
+[32m+[m[41m                [m
+                 'edit_discount',[m
+                 'edit_price',[m
+                 'business_locations',[m
+[31m-                'bl_attributes',[m
+                 'business_details',[m
+                 'taxes',[m
+                 'payment_types',[m
